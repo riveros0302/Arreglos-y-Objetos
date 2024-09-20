@@ -69,11 +69,8 @@ export const renderCard = (array, div, limit) => {
 if (divVenta && divAlquiler) {
   renderCard(propiedades_venta, divVenta, 3);
   renderCard(propiedades_alquiler, divAlquiler, 3);
-  console.log("ejecuta 1");
 } else if (divVenta) {
   renderCard(propiedades_venta, divVenta);
-  console.log("ejecuta 2");
 } else if (divAlquiler) {
   renderCard(propiedades_alquiler, divAlquiler);
-  console.log("ejecuta 3");
 }
